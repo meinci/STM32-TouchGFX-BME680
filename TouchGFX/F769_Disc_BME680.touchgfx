@@ -1,0 +1,332 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_800x480_gradient_light.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Sc1_button_1",
+            "X": 31,
+            "Y": 33,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_action.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_active.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_forward_ios_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_forward_ios_50_50_E8F6FB.svg.png",
+            "IconX": 30,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "X": 161,
+            "Y": 135,
+            "Width": 639,
+            "Height": 345,
+            "DataSeed": -58722186,
+            "NumberOfValues": 100,
+            "MaxY": 3500.0,
+            "Precision": "1",
+            "UseCustomVisibleDataPointRange": true,
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "LabelSizeTop": 21,
+            "LabelSizeBottom": 30,
+            "LabelSizeLeft": 92,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 242,
+                  "Green": 5,
+                  "Blue": 56
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Interval": 50.0,
+              "LineWidth": 2
+            },
+            "MinorXAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 30,
+                "Green": 30,
+                "Blue": 30
+              },
+              "Interval": 10.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Interval": 1000.0,
+              "LineWidth": 2
+            },
+            "MinorYAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 30,
+                "Green": 30,
+                "Blue": 30
+              },
+              "Interval": 500.0,
+              "LineWidth": 1
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 500.0,
+              "DecimalSeparator": "Point",
+              "TextId": "__SingleUse_IUJR",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Sc1_button",
+            "X": 661,
+            "Y": 33,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_action.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_active.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_back_ios_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_ios_50_50_E8F6FB.svg.png",
+            "IconX": 30,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "lineProgress1",
+            "X": 100,
+            "Y": 159,
+            "Width": 10,
+            "Height": 300,
+            "FileNameProgress": "__generated\\alternate_theme_images_widgets_lineprogress_fillers_plain_normal_medium_action_90.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 300.0,
+            "EndX": 5.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_medium_90.png",
+            "ProgressRangeMax": 3500,
+            "ProgressInitialValue": 300
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Sc1_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_800x480_waves.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Sc2_button",
+            "X": 33,
+            "Y": 31,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_action.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_active.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_forward_ios_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_forward_ios_50_50_E8F6FB.svg.png",
+            "IconX": 30,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaTemp",
+            "X": 33,
+            "Y": 132,
+            "Width": 727,
+            "Height": 73,
+            "TextId": "Temperatur_Text",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 240,
+              "Blue": 240
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaHumi",
+            "X": 33,
+            "Y": 205,
+            "Width": 727,
+            "Height": 70,
+            "TextId": "Luftfeuchte_Text",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 240,
+              "Blue": 240
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaPres",
+            "X": 33,
+            "Y": 275,
+            "Width": 727,
+            "Height": 70,
+            "TextId": "Luftdruck_Text",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 240,
+              "Blue": 240
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaGas",
+            "X": 33,
+            "Y": 345,
+            "Width": 727,
+            "Height": 70,
+            "TextId": "Luftqualitaet_Text",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 240,
+              "Blue": 240
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Sc2_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "F769_Disc_BME680",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp",
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F769I_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "Vector"
+    ]
+  },
+  "Version": "4.21.0",
+  "CreatedBy": "4.21.0"
+}

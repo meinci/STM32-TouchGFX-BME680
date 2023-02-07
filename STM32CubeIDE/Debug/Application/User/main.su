@@ -1,0 +1,11 @@
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:1770:6:StartDefaultTask	0	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:163:8:user_i2c_read	40	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:170:10:user_delay_ms	0	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:175:12:user_i2c_write	40	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:1646:16:QSPI_WriteEnable.constprop	88	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:352:6:SystemClock_Config	88	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:691:6:MX_I2C4_Init	16	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:192:5:main	280	static,ignoring_inline_asm
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:1755:6:HAL_ADC_ConvCpltCallback	8	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:1878:6:HAL_TIM_PeriodElapsedCallback	0	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c:1895:6:Error_Handler	0	static
