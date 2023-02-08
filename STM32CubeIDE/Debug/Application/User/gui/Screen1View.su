@@ -8,3 +8,4 @@ C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/gui/src/screen
 C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:17:6:void Screen1View::UpdateGraph1(uint16_t)	0	static
 C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:8:6:virtual void Screen1View::setupScreen()	0	static
 C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:21:6:void Screen1View::UpdateBar(uint16_t)	0	static
+C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:25:6:void Screen1View::UpdateTextArea(uint16_t)	16	static

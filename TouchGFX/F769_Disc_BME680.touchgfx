@@ -114,8 +114,8 @@
           {
             "Type": "LineProgress",
             "Name": "lineProgress1",
-            "X": 100,
-            "Y": 159,
+            "X": 76,
+            "Y": 157,
             "Width": 10,
             "Height": 300,
             "FileNameProgress": "__generated\\alternate_theme_images_widgets_lineprogress_fillers_plain_normal_medium_action_90.png",
@@ -132,6 +132,20 @@
             "FileNameBackground": "__generated\\alternate_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_medium_90.png",
             "ProgressRangeMax": 3500,
             "ProgressInitialValue": 300
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea_Value",
+            "X": 7,
+            "Y": 120,
+            "Width": 149,
+            "Height": 31,
+            "TextId": "ADC_Value",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           }
         ],
         "Interactions": [

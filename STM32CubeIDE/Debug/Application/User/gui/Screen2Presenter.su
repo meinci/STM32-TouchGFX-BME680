@@ -1,5 +1,6 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:18:18:virtual void ModelListener::UpdateGraph1(uint16_t)	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:19:18:virtual void ModelListener::UpdateBar(uint16_t)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:20:18:virtual void ModelListener::UpdateTextArea(uint16_t)	0	static
 ../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:Screen2Presenter::~Screen2Presenter()	0	static
 C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:10:6:virtual void Screen2Presenter::activate()	0	static
 ../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:virtual Screen2Presenter::~Screen2Presenter()	8	static

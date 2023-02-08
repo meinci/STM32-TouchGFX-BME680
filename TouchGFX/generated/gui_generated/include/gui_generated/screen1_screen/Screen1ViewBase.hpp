@@ -16,6 +16,7 @@
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 #include <touchgfx/containers/progress_indicators/LineProgress.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565Bitmap.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 
 class Screen1ViewBase : public touchgfx::View<Screen1Presenter>
 {
@@ -46,6 +47,13 @@ protected:
     touchgfx::ButtonWithIcon Sc1_button;
     touchgfx::LineProgress lineProgress1;
     touchgfx::PainterRGB565Bitmap lineProgress1Painter;
+    touchgfx::TextAreaWithOneWildcard textArea_Value;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t TEXTAREA_VALUE_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar textArea_ValueBuffer[TEXTAREA_VALUE_SIZE];
 
 private:
 

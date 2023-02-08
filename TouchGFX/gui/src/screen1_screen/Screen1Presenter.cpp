@@ -25,3 +25,10 @@ void Screen1Presenter::UpdateBar(uint16_t value)
 {
 	view.UpdateBar(value);
 }
+
+void Screen1Presenter::UpdateTextArea(uint16_t value)
+{
+	view.UpdateTextArea(value);
+}
+
+

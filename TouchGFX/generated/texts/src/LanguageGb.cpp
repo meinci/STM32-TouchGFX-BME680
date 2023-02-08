@@ -10,7 +10,8 @@ KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE;
 // Remap all strings
 TEXT_LOCATION_FLASH_PRAGMA
 KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
-    66, // T_RESOURCEID1: "New Text"
+    71, // T_RESOURCEID1: "New Text"
+    66, // T_ADC_VALUE: "<> mV"
     34, // T_LUFTQUALITAET_TEXT: "Luftqualit?t: <>"
     0,  // T_LUFTDRUCK_TEXT: "Luftdruck: <> mPh"
     17, // T_LUFTFEUCHTE_TEXT: "Luftfeuchte: <> %"

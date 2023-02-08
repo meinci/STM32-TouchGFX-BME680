@@ -29,6 +29,7 @@ public:
 
     void UpdateGraph1(uint16_t value);
     void UpdateBar(uint16_t value);
+    void UpdateTextArea(uint16_t value);
 
 private:
     Screen1Presenter();

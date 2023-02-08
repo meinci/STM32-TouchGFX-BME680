@@ -41,9 +41,12 @@ void Model::tick()
 
   modelListener->UpdateGraph1(uhADCxConvertedData * 3300 / 4096);
   modelListener->UpdateBar(uhADCxConvertedData * 3300 / 4096);
+  modelListener->UpdateTextArea(uhADCxConvertedData * 3300 / 4096);
 
   modelListener->UpdateTemp(temperature);
   modelListener->UpdateHumi(humidity);
   modelListener->UpdatePres(pressure);
   modelListener->UpdateGas(gas_resistance);
+
+
 }

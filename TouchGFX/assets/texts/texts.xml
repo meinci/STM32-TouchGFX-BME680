@@ -10,6 +10,9 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="ADC_Value" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt; mV</Translation>
+      </Text>
       <Text Id="Luftqualitaet_Text" Alignment="Left" TypographyId="Large">
         <Translation Language="GB">Luftqualität: &lt;value&gt;</Translation>
       </Text>

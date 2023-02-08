@@ -77,7 +77,7 @@ Screen1ViewBase::Screen1ViewBase() :
     Sc1_button.setAction(buttonCallback);
     add(Sc1_button);
 
-    lineProgress1.setXY(100, 159);
+    lineProgress1.setXY(76, 157);
     lineProgress1.setProgressIndicatorPosition(0, 0, 10, 300);
     lineProgress1.setRange(0, 3500);
     lineProgress1.setBackground(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_LINEPROGRESS_BACKGROUNDS_IMAGE_PLAIN_NORMAL_MEDIUM_90_ID));
@@ -89,6 +89,14 @@ Screen1ViewBase::Screen1ViewBase() :
     lineProgress1.setLineEndingStyle(touchgfx::Line::BUTT_CAP_ENDING);
     lineProgress1.setValue(300);
     add(lineProgress1);
+
+    textArea_Value.setPosition(7, 120, 149, 31);
+    textArea_Value.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea_Value.setLinespacing(0);
+    textArea_ValueBuffer[0] = 0;
+    textArea_Value.setWildcard(textArea_ValueBuffer);
+    textArea_Value.setTypedText(touchgfx::TypedText(T_ADC_VALUE));
+    add(textArea_Value);
 }
 
 Screen1ViewBase::~Screen1ViewBase()

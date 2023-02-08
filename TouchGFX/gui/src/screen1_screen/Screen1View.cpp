@@ -22,3 +22,8 @@ void Screen1View::UpdateBar(uint16_t value)
 {
 	lineProgress1.setValue(value);
 }
+void Screen1View::UpdateTextArea(uint16_t value)
+{
+	Unicode::snprintfFloat(textArea_ValueBuffer,TEXTAREA_VALUE_SIZE,"%.f",value);
+	textArea_Value.invalidate();
+}
