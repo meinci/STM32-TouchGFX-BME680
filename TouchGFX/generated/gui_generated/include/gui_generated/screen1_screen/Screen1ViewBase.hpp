@@ -9,11 +9,11 @@
 #include <gui/screen1_screen/Screen1Presenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/Image.hpp>
-#include <touchgfx/widgets/ButtonWithIcon.hpp>
 #include <touchgfx/widgets/graph/GraphScroll.hpp>
 #include <touchgfx/widgets/graph/GraphElements.hpp>
 #include <touchgfx/widgets/graph/GraphLabels.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
+#include <touchgfx/widgets/ButtonWithIcon.hpp>
 #include <touchgfx/containers/progress_indicators/LineProgress.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565Bitmap.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
@@ -35,7 +35,6 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Image image1;
-    touchgfx::ButtonWithIcon Sc1_button_1;
     touchgfx::GraphScroll<100> dynamicGraph1;
     touchgfx::GraphElementGridX dynamicGraph1MinorXAxisGrid;
     touchgfx::GraphElementGridY dynamicGraph1MinorYAxisGrid;

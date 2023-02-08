@@ -1772,25 +1772,7 @@ void StartDefaultTask(void *argument)
   /* USER CODE BEGIN 5 */
   for(;;)
   {
-#if 0
-		//user_delay_ms(meas_period);
-		//HAL_Delay(1000);
-		rslt = bme680_get_sensor_data(&data, &gas_sensor);
 
-		temperature = data.temperature;
-		humidity = data.humidity;
-		pressure = data.pressure / 100.0;
-
-		if(data.status & BME680_GASM_VALID_MSK)
-			gas_resistance = data.gas_resistance;
-
-		if (gas_sensor.power_mode == BME680_FORCED_MODE)
-		{
-			rslt = bme680_set_sensor_mode(&gas_sensor);
-		}
-
-	osDelay(1000);
-#endif
   }
 
   /* USER CODE END 5 */

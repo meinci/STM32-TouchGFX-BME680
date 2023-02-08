@@ -20,11 +20,6 @@ Screen1ViewBase::Screen1ViewBase() :
     image1.setBitmap(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_BACKGROUNDS_800X480_GRADIENT_LIGHT_ID));
     add(image1);
 
-    Sc1_button_1.setXY(31, 33);
-    Sc1_button_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_TINY_ROUNDED_ACTIVE_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_TINY_ROUNDED_ACTION_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_NAVIGATION_ARROW_FORWARD_IOS_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_NAVIGATION_ARROW_FORWARD_IOS_50_50_E8F6FB_SVG_ID));
-    Sc1_button_1.setIconXY(30, 0);
-    add(Sc1_button_1);
-
     dynamicGraph1.setPosition(161, 135, 639, 345);
     dynamicGraph1.setScale(1);
     dynamicGraph1.setGraphRangeX(0, 99);
@@ -71,13 +66,13 @@ Screen1ViewBase::Screen1ViewBase() :
 
     add(dynamicGraph1);
 
-    Sc1_button.setXY(661, 33);
+    Sc1_button.setXY(37, 35);
     Sc1_button.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_TINY_ROUNDED_ACTIVE_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_TINY_ROUNDED_ACTION_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_NAVIGATION_ARROW_BACK_IOS_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_NAVIGATION_ARROW_BACK_IOS_50_50_E8F6FB_SVG_ID));
     Sc1_button.setIconXY(30, 0);
     Sc1_button.setAction(buttonCallback);
     add(Sc1_button);
 
-    lineProgress1.setXY(76, 157);
+    lineProgress1.setXY(87, 157);
     lineProgress1.setProgressIndicatorPosition(0, 0, 10, 300);
     lineProgress1.setRange(0, 3500);
     lineProgress1.setBackground(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_LINEPROGRESS_BACKGROUNDS_IMAGE_PLAIN_NORMAL_MEDIUM_90_ID));

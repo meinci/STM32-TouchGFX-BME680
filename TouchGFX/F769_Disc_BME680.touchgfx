@@ -13,21 +13,6 @@
             "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_800x480_gradient_light.png"
           },
           {
-            "Type": "ButtonWithIcon",
-            "Name": "Sc1_button_1",
-            "X": 31,
-            "Y": 33,
-            "Width": 110,
-            "Height": 50,
-            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_action.png",
-            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_active.png",
-            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_forward_ios_50_50_E8F6FB.svg.png",
-            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_forward_ios_50_50_E8F6FB.svg.png",
-            "IconX": 30,
-            "IconHeight": 50,
-            "IconWidth": 50
-          },
-          {
             "Type": "DynamicGraph",
             "Name": "dynamicGraph1",
             "X": 161,
@@ -99,8 +84,8 @@
           {
             "Type": "ButtonWithIcon",
             "Name": "Sc1_button",
-            "X": 661,
-            "Y": 33,
+            "X": 37,
+            "Y": 35,
             "Width": 110,
             "Height": 50,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_action.png",
@@ -114,7 +99,7 @@
           {
             "Type": "LineProgress",
             "Name": "lineProgress1",
-            "X": 76,
+            "X": 87,
             "Y": 157,
             "Width": 10,
             "Height": 300,
@@ -177,8 +162,8 @@
           {
             "Type": "ButtonWithIcon",
             "Name": "Sc2_button",
-            "X": 33,
-            "Y": 31,
+            "X": 650,
+            "Y": 35,
             "Width": 110,
             "Height": 50,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_action.png",
@@ -290,7 +275,7 @@
       "Height": 480
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "Screen1",
+    "StartupScreenName": "Screen2",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",
