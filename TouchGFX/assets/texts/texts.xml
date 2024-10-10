@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.21.0">
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.1">
   <Languages>
     <Language Id="GB" />
   </Languages>
@@ -13,16 +13,16 @@
       <Text Id="ADC_Value" Alignment="Center" TypographyId="Small">
         <Translation Language="GB">&lt;value&gt; mV</Translation>
       </Text>
-      <Text Id="Luftqualitaet_Text" Alignment="Left" TypographyId="Large">
+      <Text Id="Luftqualitaet_Text" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Luftqualität: &lt;value&gt;</Translation>
       </Text>
-      <Text Id="Luftdruck_Text" Alignment="Left" TypographyId="Large">
+      <Text Id="Luftdruck_Text" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Luftdruck: &lt;value&gt; mPh</Translation>
       </Text>
-      <Text Id="Luftfeuchte_Text" Alignment="Left" TypographyId="Large">
+      <Text Id="Luftfeuchte_Text" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Luftfeuchte: &lt;value&gt; %</Translation>
       </Text>
-      <Text Id="Temperatur_Text" Alignment="Left" TypographyId="Large">
+      <Text Id="Temperatur_Text" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Temperatur: &lt;value&gt; C</Translation>
       </Text>
       <Text Id="__SingleUse_IUJR" Alignment="Right" TypographyId="Small">
@@ -31,9 +31,9 @@
     </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="verdana.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-., 0123456789" />
-    <Typography Id="Large" Font="verdana.ttf" Size="60" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-., 0123456789" />
-    <Typography Id="Small" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-., 0123456789" WidgetWildcardCharacters="-., 0123456789" />
-    <Typography Id="Typography_00" Font="verdana.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-., 0123456789" />
+    <Typography Id="Default" Font="verdana.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-., 0123456789" />
+    <Typography Id="Large" Font="verdana.ttf" Size="60" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-., 0123456789" />
+    <Typography Id="Small" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-., 0123456789" WidgetWildcardCharacters="-., 0123456789" />
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-., 0123456789" />
   </Typographies>
 </TextDatabase>

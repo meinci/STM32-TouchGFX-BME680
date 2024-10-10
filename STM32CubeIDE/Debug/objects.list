@@ -44,6 +44,8 @@
 "./Application/User/generated/Texts.o"
 "./Application/User/generated/TypedTextDatabase.o"
 "./Application/User/generated/UnmappedDataFont.o"
+"./Application/User/generated/VectorFontRendererBuffers.o"
+"./Application/User/generated/image_Kayra.o"
 "./Application/User/generated/image_alternate_theme_images_backgrounds_800x480_gradient_light.o"
 "./Application/User/generated/image_alternate_theme_images_backgrounds_800x480_waves.o"
 "./Application/User/generated/image_alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_action.o"

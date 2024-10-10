@@ -23,7 +23,7 @@ Screen2ViewBase::Screen2ViewBase() :
     Sc2_button.setAction(buttonCallback);
     add(Sc2_button);
 
-    textAreaTemp.setPosition(33, 132, 727, 73);
+    textAreaTemp.setPosition(33, 132, 429, 73);
     textAreaTemp.setColor(touchgfx::Color::getColorFromRGB(240, 240, 240));
     textAreaTemp.setLinespacing(0);
     textAreaTempBuffer[0] = 0;
@@ -31,7 +31,7 @@ Screen2ViewBase::Screen2ViewBase() :
     textAreaTemp.setTypedText(touchgfx::TypedText(T_TEMPERATUR_TEXT));
     add(textAreaTemp);
 
-    textAreaHumi.setPosition(33, 205, 727, 70);
+    textAreaHumi.setPosition(33, 205, 429, 70);
     textAreaHumi.setColor(touchgfx::Color::getColorFromRGB(240, 240, 240));
     textAreaHumi.setLinespacing(0);
     textAreaHumiBuffer[0] = 0;
@@ -39,7 +39,7 @@ Screen2ViewBase::Screen2ViewBase() :
     textAreaHumi.setTypedText(touchgfx::TypedText(T_LUFTFEUCHTE_TEXT));
     add(textAreaHumi);
 
-    textAreaPres.setPosition(33, 275, 727, 70);
+    textAreaPres.setPosition(33, 275, 429, 70);
     textAreaPres.setColor(touchgfx::Color::getColorFromRGB(240, 240, 240));
     textAreaPres.setLinespacing(0);
     textAreaPresBuffer[0] = 0;
@@ -47,13 +47,18 @@ Screen2ViewBase::Screen2ViewBase() :
     textAreaPres.setTypedText(touchgfx::TypedText(T_LUFTDRUCK_TEXT));
     add(textAreaPres);
 
-    textAreaGas.setPosition(33, 345, 727, 70);
+    textAreaGas.setPosition(33, 345, 429, 70);
     textAreaGas.setColor(touchgfx::Color::getColorFromRGB(240, 240, 240));
     textAreaGas.setLinespacing(0);
     textAreaGasBuffer[0] = 0;
     textAreaGas.setWildcard(textAreaGasBuffer);
     textAreaGas.setTypedText(touchgfx::TypedText(T_LUFTQUALITAET_TEXT));
     add(textAreaGas);
+
+    scalableImage1.setBitmap(touchgfx::Bitmap(BITMAP_KAYRA_ID));
+    scalableImage1.setPosition(496, 94, 287, 378);
+    scalableImage1.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    add(scalableImage1);
 }
 
 Screen2ViewBase::~Screen2ViewBase()

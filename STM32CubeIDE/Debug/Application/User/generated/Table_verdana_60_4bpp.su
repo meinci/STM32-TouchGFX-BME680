@@ -1,2 +1,2 @@
-C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/generated/fonts/src/Table_verdana_60_4bpp.cpp:61:168:void __tcf_0()	0	static
-C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/generated/fonts/src/Table_verdana_60_4bpp.cpp:59:26:touchgfx::GeneratedFont& getFont_verdana_60_4bpp()	72	static
+C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/generated/fonts/src/Table_verdana_60_4bpp.cpp:39:168:void __tcf_0()	0	static
+C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/generated/fonts/src/Table_verdana_60_4bpp.cpp:37:26:touchgfx::GeneratedFont& getFont_verdana_60_4bpp()	72	static

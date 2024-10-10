@@ -11,6 +11,7 @@
 #include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
+#include <touchgfx/widgets/ScalableImage.hpp>
 
 class Screen2ViewBase : public touchgfx::View<Screen2Presenter>
 {
@@ -34,6 +35,7 @@ protected:
     touchgfx::TextAreaWithOneWildcard textAreaHumi;
     touchgfx::TextAreaWithOneWildcard textAreaPres;
     touchgfx::TextAreaWithOneWildcard textAreaGas;
+    touchgfx::ScalableImage scalableImage1;
 
     /*
      * Wildcard Buffers

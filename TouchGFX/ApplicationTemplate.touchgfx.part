@@ -24,8 +24,9 @@
     "OptionalComponents": [
     ],
     "AdditionalFeatures": [
-      "Vector"
-    ],
+      "CWRVector",
+      "Video"
+    ]
   },
-  "Version": "4.21.0"
+  "Version": "4.24.1"
 }

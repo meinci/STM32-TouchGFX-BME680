@@ -179,7 +179,7 @@
             "Name": "textAreaTemp",
             "X": 33,
             "Y": 132,
-            "Width": 727,
+            "Width": 429,
             "Height": 73,
             "TextId": "Temperatur_Text",
             "TextRotation": "0",
@@ -198,7 +198,7 @@
             "Name": "textAreaHumi",
             "X": 33,
             "Y": 205,
-            "Width": 727,
+            "Width": 429,
             "Height": 70,
             "TextId": "Luftfeuchte_Text",
             "TextRotation": "0",
@@ -217,7 +217,7 @@
             "Name": "textAreaPres",
             "X": 33,
             "Y": 275,
-            "Width": 727,
+            "Width": 429,
             "Height": 70,
             "TextId": "Luftdruck_Text",
             "TextRotation": "0",
@@ -236,7 +236,7 @@
             "Name": "textAreaGas",
             "X": 33,
             "Y": 345,
-            "Width": 727,
+            "Width": 429,
             "Height": 70,
             "TextId": "Luftqualitaet_Text",
             "TextRotation": "0",
@@ -249,6 +249,16 @@
               "UseBuffer": true,
               "BufferSize": 10
             }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "X": 496,
+            "Y": 94,
+            "Width": 287,
+            "Height": 378,
+            "Filename": "Kayra.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
           }
         ],
         "Interactions": [
@@ -323,9 +333,10 @@
     "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
     "OptionalComponents": [],
     "AdditionalFeatures": [
-      "Vector"
+      "CWRVector",
+      "Video"
     ]
   },
-  "Version": "4.21.0",
+  "Version": "4.24.1",
   "CreatedBy": "4.21.0"
 }
