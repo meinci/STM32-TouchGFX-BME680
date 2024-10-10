@@ -1,5 +1,5 @@
 Application/User/generated/FontCache.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/generated/fonts/src/FontCache.cpp \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/generated/fonts/src/FontCache.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \

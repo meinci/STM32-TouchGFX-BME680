@@ -1,5 +1,5 @@
 Application/User/generated/Screen1ViewBase.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

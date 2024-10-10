@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/Buttons.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/target/Buttons.cpp \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/target/Buttons.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Buttons.hpp \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \

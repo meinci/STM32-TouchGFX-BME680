@@ -1,0 +1,12 @@
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:18:18:virtual void ModelListener::UpdateGraph1(uint16_t)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:19:18:virtual void ModelListener::UpdateBar(uint16_t)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:20:18:virtual void ModelListener::UpdateTextArea(uint16_t)	1
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:Screen2Presenter::~Screen2Presenter()	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:10:6:virtual void Screen2Presenter::activate()	1
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:virtual Screen2Presenter::~Screen2Presenter()	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:19:6:virtual void Screen2Presenter::UpdateTemp(float)	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:24:6:virtual void Screen2Presenter::UpdateHumi(float)	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:28:6:virtual void Screen2Presenter::UpdatePres(float)	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:32:6:virtual void Screen2Presenter::UpdateGas(float)	1
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:virtual void* Screen2Presenter::_ZThn4_N16Screen2PresenterD1Ev()	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:4:1:Screen2Presenter::Screen2Presenter(Screen2View&)	1

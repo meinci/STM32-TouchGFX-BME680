@@ -1,5 +1,5 @@
 Application/User/gui/Model.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/gui/src/model/Model.cpp \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/gui/src/model/Model.cpp \
  ../../TouchGFX/gui/include/gui/model/Model.hpp \
  ../../TouchGFX/gui/include/gui/model/ModelListener.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

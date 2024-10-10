@@ -3,6 +3,7 @@
 #include "stm32f7xx_hal.h"
 
 extern __IO uint16_t uhADCxConvertedData;
+extern __IO uint16_t bmeTemp;
 #include "bme680.h"
 uint8_t tick1 = 0;
 extern struct bme680_field_data data;
@@ -21,7 +22,7 @@ Model::Model() : modelListener(0)
 
 void Model::tick()
 {
-	tick1 ++;
+/*	tick1 ++;
 		if (tick1 >= 90){
 			rslt = bme680_get_sensor_data(&data, &gas_sensor);
 
@@ -39,14 +40,15 @@ void Model::tick()
 			tick1 = 0;
 		}
 
-  modelListener->UpdateGraph1(uhADCxConvertedData * 3300 / 4096);
-  modelListener->UpdateBar(uhADCxConvertedData * 3300 / 4096);
-  modelListener->UpdateTextArea(uhADCxConvertedData * 3300 / 4096);
 
+  */
   modelListener->UpdateTemp(temperature);
   modelListener->UpdateHumi(humidity);
   modelListener->UpdatePres(pressure);
   modelListener->UpdateGas(gas_resistance);
 
 
+  modelListener->UpdateGraph1(uhADCxConvertedData * 3300 / 4096);
+  modelListener->UpdateBar(uhADCxConvertedData * 3300 / 4096);
+  modelListener->UpdateTextArea(uhADCxConvertedData * 3300 / 4096);
 }

@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/target/generated/HardwareMJPEGDecoder.cpp \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/target/generated/HardwareMJPEGDecoder.cpp \
  ../../TouchGFX/target/generated/HardwareMJPEGDecoder.hpp \
  ../../TouchGFX/target/generated/MJPEGDecoder.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

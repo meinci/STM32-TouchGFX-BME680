@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/port.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

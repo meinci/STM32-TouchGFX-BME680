@@ -1,2 +1,2 @@
-C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.c:70:19:HAL_LTDCEx_StructInitFromVideoConfig	0	static
-C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.c:109:19:HAL_LTDCEx_StructInitFromAdaptedCommandConfig	0	static
+C:/Users/HP/git/STM32-TouchGFX-BME680/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.c:70:19:HAL_LTDCEx_StructInitFromVideoConfig	0	static
+C:/Users/HP/git/STM32-TouchGFX-BME680/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc_ex.c:109:19:HAL_LTDCEx_StructInitFromAdaptedCommandConfig	0	static

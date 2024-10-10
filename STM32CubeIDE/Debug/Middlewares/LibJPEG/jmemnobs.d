@@ -1,5 +1,5 @@
 Middlewares/LibJPEG/jmemnobs.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c \
  ../../Middlewares/Third_Party/LibJPEG/include/jinclude.h \
  ../../LIBJPEG/Target/jconfig.h ../../LIBJPEG/Target/jdata_conf.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \

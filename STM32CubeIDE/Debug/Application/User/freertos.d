@@ -1,5 +1,5 @@
 Application/User/freertos.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/freertos.c \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/freertos.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

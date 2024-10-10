@@ -98,7 +98,7 @@ SDRAM_HandleTypeDef hsdram1;
 osThreadId_t defaultTaskHandle;
 const osThreadAttr_t defaultTask_attributes = {
   .name = "defaultTask",
-  .stack_size = 128 * 4,
+  .stack_size = 1000 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
 /* Definitions for TouchGFXTask */
@@ -117,6 +117,8 @@ const osThreadAttr_t videoTask_attributes = {
 };
 /* USER CODE BEGIN PV */
 __IO uint16_t uhADCxConvertedData;
+__IO uint16_t bmeTemp;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -1772,6 +1774,20 @@ void StartDefaultTask(void *argument)
   /* USER CODE BEGIN 5 */
   for(;;)
   {
+	  rslt = bme680_get_sensor_data(&data, &gas_sensor);
+
+	  			temperature = data.temperature/100;
+	  			humidity = data.humidity/1000;
+	  			pressure = data.pressure / 100;
+
+	  			if(data.status & BME680_GASM_VALID_MSK)
+	  				gas_resistance = data.gas_resistance;
+
+	  			if (gas_sensor.power_mode == BME680_FORCED_MODE)
+	  			{
+	  				rslt = bme680_set_sensor_mode(&gas_sensor);
+	  			}
+	  			osDelay(20);
 
   }
 

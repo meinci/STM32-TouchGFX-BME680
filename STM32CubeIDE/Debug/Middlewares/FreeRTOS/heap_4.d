@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/heap_4.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

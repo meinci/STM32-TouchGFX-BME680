@@ -14,9 +14,9 @@
 ../Application/User/bme68x.c:395:8:bme68x_get_conf	16	static
 ../Application/User/bme68x.c:430:8:bme68x_set_op_mode	24	static
 ../Application/User/bme68x.c:467:8:bme68x_get_op_mode	16	static
-../Application/User/bme68x.c:311:8:bme68x_set_conf	48	static
+../Application/User/bme68x.c:311:8:bme68x_set_conf	40	static
 ../Application/User/bme68x.c:490:10:bme68x_get_meas_dur	24	static
 ../Application/User/bme68x.c:540:8:bme68x_get_data	248	static
-../Application/User/bme68x.c:630:8:bme68x_set_heatr_conf	112	static
-../Application/User/bme68x.c:687:8:bme68x_get_heatr_conf	40	static
-../Application/User/bme68x.c:725:8:bme68x_selftest_check	280	static
+../Application/User/bme68x.c:630:8:bme68x_set_heatr_conf	104	static
+../Application/User/bme68x.c:687:8:bme68x_get_heatr_conf	32	static
+../Application/User/bme68x.c:725:8:bme68x_selftest_check	272	static

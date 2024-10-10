@@ -12,4 +12,4 @@
 ../Application/User/bme680.c:619:8:bme680_get_sensor_mode	16	static
 ../Application/User/bme680.c:638:6:bme680_set_profile_dur	16	static
 ../Application/User/bme680.c:663:6:bme680_get_profile_dur	16	static
-../Application/User/bme680.c:696:8:bme680_get_sensor_data	200	static
+../Application/User/bme680.c:696:8:bme680_get_sensor_data	192	static

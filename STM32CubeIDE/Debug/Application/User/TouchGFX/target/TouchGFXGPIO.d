@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/TouchGFXGPIO.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/TouchGFX/target/TouchGFXGPIO.cpp \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/TouchGFX/target/TouchGFXGPIO.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp \
  ../../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f769xx.h \

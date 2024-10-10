@@ -1,5 +1,5 @@
 Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \

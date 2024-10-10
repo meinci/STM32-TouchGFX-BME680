@@ -1,5 +1,5 @@
 Application/User/main.o: \
- C:/Users/HP/Desktop/STM32F769I-Discovery_TouchGFX-BME680/Core/Src/main.c \
+ C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \

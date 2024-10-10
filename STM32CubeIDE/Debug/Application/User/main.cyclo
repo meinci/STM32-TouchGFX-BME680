@@ -1,0 +1,11 @@
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:165:8:user_i2c_read	2
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:172:10:user_delay_ms	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:177:12:user_i2c_write	2
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:1772:6:StartDefaultTask	3
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:1648:16:QSPI_WriteEnable.constprop	2
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:354:6:SystemClock_Config	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:693:6:MX_I2C4_Init	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:194:5:main	30
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:1757:6:HAL_ADC_ConvCpltCallback	1
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:1876:6:HAL_TIM_PeriodElapsedCallback	2
+C:/Users/HP/git/STM32-TouchGFX-BME680/Core/Src/main.c:1893:6:Error_Handler	1
